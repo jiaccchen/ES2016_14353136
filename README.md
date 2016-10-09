@@ -56,6 +56,7 @@
     ```$	../configure CXX=g++ --disable-async-updates```
     
     得到如下图所示的结果：
+
     ![configure的结果][3]
 
  5. 编译
@@ -85,13 +86,15 @@
     ```$	ant -f build_zip.xml all```
     若成功会显示build successful，如图：
     ![编译成功][6]
- 4. 运行一个例子
+ 
+4. 运行一个例子
     进入build/bin/mian路径下
     ```$	cd build/bin/main```
     运行example 1;
     ```$	ant -f runexample.xml -Dnumber=1```
     得到的结果是：
     ![测试结果][7]
+
 ## - Experimental Experience
 
 关于DOL的配置过程还算顺利，全部按照配置的步骤并在最终得到了build successful的测试结果。创建版本库和远程库并使得他们连接在一起，实现了在github上的文件的远程提交，github是完全开源的，也实现了很好的沟通性和学习。在写这篇readme时对markdown的语法进行了学习，markdown是一个很好用的排版语言，清晰简单，在插入图片的时候我选择了将图片添加进了github的仓库中，然后通过download得到图片的地址，添加到md文件中。
