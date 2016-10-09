@@ -63,10 +63,12 @@
     ```$	sudo make install```
     
     编译完后文件目录如下
-    ![编译后的目录][4]
+    
+![编译后的目录][4]
 
  6. 记录当前的工作路径
-    ![pwd 工作路径][5]
+    
+![pwd 工作路径][5]
 
 从图中可以看到当前路径为==home/jiaccchen/systemc-2.3.1==
 
@@ -94,6 +96,7 @@
     ```$	ant -f runexample.xml -Dnumber=1```
     得到的结果是：
     ![测试结果][7]
+
 
 ## - Experimental Experience
 
