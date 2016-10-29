@@ -2,7 +2,7 @@
 
 ## ROS基本介绍 ##
 
-****ROS Robot Operating System：机器人操作系统****
+ROS Robot Operating System：机器人操作系统
 
  ROS是一个开放的标准平台，一套框架，底层提供硬件驱动，软件层面支持通用的文件格式。它提供了一系列的软件框架和工具以帮助软件开发者创建机器人应用软件。
 
