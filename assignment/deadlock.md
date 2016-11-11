@@ -107,6 +107,7 @@ class Deadlock implements Runnable{
 相同类型的错误还有```/bin/bash^M: bad interpreter: No such file or directory```，网上说此类错误是由于交叉编辑器的使用导致的，原本我是在windows下编辑好java和sh文件并粘贴到linux虚拟机下，不幸的是，经过在虚拟机中重新新建此类型文件并且编辑，仍然无法解决这一问题。
 　　
 最终我采取的办法是将那段代码直接粘贴到命令行中（如前文所示），顺利地运行了结果。
+
 最后推送到远程仓库的时候，忘记```git commit -m ```这一步骤，直接想通过分支master推送到远程，出现下面的错误：
 　　
 ![](https://raw.githubusercontent.com/jiaccchen/ES2016_14353136/master/image/4-6.jpg)
