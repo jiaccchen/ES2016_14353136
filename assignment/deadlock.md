@@ -94,13 +94,13 @@ class Deadlock implements Runnable{
 ## 实验感想
 这次实验理解java代码的执行过程并不难，由于有操作系统的基础也很容易理解死锁的过程，但是让程序跑起来的过程一波三折。
 
-首先是出现如下报错：
+（1）首先是出现如下报错：
 　　
 ![](https://raw.githubusercontent.com/jiaccchen/ES2016_14353136/master/image/4-0.jpg)
 　　
 出现此错误的原因是没有获得执行.sh文件的权限，因此我们在命令行执行./deaklock.sh前添加一行语句，```chmod 777 deadlock.sh```即可。
 　　
-接下来又会出现错误：
+（2）接下来又会出现错误：
 　　
 ![](https://raw.githubusercontent.com/jiaccchen/ES2016_14353136/master/image/4-1.jpg)
 　　
@@ -108,7 +108,7 @@ class Deadlock implements Runnable{
 　　
 最终我采取的办法是将那段代码直接粘贴到命令行中（如前文所示），顺利地运行了结果。
 
-最后推送到远程仓库的时候，忘记```git commit -m ```这一步骤，直接想通过分支master推送到远程，出现下面的错误：
+（3）最后推送到远程仓库的时候，忘记```git commit -m ```这一步骤，直接想通过分支master推送到远程，出现下面的错误：
 　　
 ![](https://raw.githubusercontent.com/jiaccchen/ES2016_14353136/master/image/4-6.jpg)
 
